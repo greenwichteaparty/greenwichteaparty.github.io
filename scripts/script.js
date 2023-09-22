@@ -35,7 +35,10 @@ function check_answer(number)
         check.innerHTML = "Incorrect!"
         check.style.color = "red";
     }
+    check.style.marginLeft = "30%";
+    
     answer.innerHTML = get_answer(number);
     answer.style.color = "blue";
+    answer.style.marginLeft = "30%";
 }
 
